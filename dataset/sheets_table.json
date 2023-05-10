@@ -1,0 +1,27 @@
+{
+	"name": "sheets_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "S_No",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "S_Name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sheets"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

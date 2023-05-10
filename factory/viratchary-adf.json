@@ -1,0 +1,9 @@
+{
+	"name": "viratchary-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "db73cd0f-1216-43be-8065-80a667432af1",
+		"tenantId": "9b8f020b-5472-427c-a2db-78a9e48a484d"
+	}
+}
